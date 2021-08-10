@@ -1,0 +1,21 @@
+{
+  "name": "class.extend",
+  "description": "copy/paste implementation of John Resig's Simple JavaScript inheritance.",
+  "version": "0.9.3-lc",
+  "main": "lib/class",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [ "class", "extend", "object" ],
+  "author": "Allen Kim",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": ">=1.0",
+    "should": ">=1.0"
+  }
+}
