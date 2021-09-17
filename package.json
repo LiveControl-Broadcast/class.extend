@@ -1,21 +1,33 @@
 {
-  "name": "class.extend",
+  "author": "Allen Kim",
   "description": "copy/paste implementation of John Resig's Simple JavaScript inheritance.",
-  "version": "0.9.3-lc",
-  "main": "lib/class",
+  "devDependencies": {
+    "mocha": ">=1.0",
+    "should": ">=1.0"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "files": [
+    "README.md",
+    "lib/"
+  ],
+  "keywords": [
+    "class",
+    "extend",
+    "object"
+  ],
+  "license": "MIT",
+  "main": "lib/class",
+  "name": "@livecontrol-broadcast/class.extend",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "readmeFilename": "README.md",
+  "repository": "github:livecontrol-broadcast/class.extend.git",
   "scripts": {
     "test": "make test"
   },
-  "keywords": [ "class", "extend", "object" ],
-  "author": "Allen Kim",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "mocha": ">=1.0",
-    "should": ">=1.0"
-  }
+  "version": "0.9.3"
 }
