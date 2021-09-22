@@ -20,12 +20,12 @@
   ],
   "license": "MIT",
   "main": "lib/class",
-  "name": "@livecontrol-broadcast/class.extend",
+  "name": "@livecontrol-io/class.extend",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "readmeFilename": "README.md",
-  "repository": "github:livecontrol-broadcast/class.extend.git",
+  "repository": "github:livecontrol-io/class.extend.git",
   "scripts": {
     "test": "make test"
   },
